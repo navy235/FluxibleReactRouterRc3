@@ -1,0 +1,7 @@
+{
+    "assets": {
+        "main": "http://127.0.0.1:5578/build/js/main.js",
+        "common": "http://127.0.0.1:5578/build/js/common.js"
+    },
+    "cdnPath": "http://127.0.0.1:5578/build/js"
+}
