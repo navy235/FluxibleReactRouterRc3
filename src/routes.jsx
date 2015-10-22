@@ -20,7 +20,7 @@ function requireAuth(context) {
     }
 
 }
-export default function (history, context) {
+export default function (context) {
     return (
         <Route path="/" component={App}>
             <IndexRoute component={Home}/>

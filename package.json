@@ -8,6 +8,7 @@
     "hot": "grunt"
   },
   "dependencies": {
+    "bluebird": "^2.10.2",
     "body-parser": "~1.12.4",
     "cache-manager": "^1.0.0",
     "classnames": "^2.1.2",

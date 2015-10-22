@@ -17,8 +17,8 @@ var Html = React.createClass({
                 <link href='/styles/main.css' rel="stylesheet" type="text/css"/>
             </head>
             <body>
-            <div id='app'>
-                <div dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
+            <div id='main'>
+                <div id='app' dangerouslySetInnerHTML={{__html: this.props.markup}}></div>
             </div>
             <script dangerouslySetInnerHTML={{__html: this.props.exposed}}></script>
             <script src={this.props.assets.common}></script>

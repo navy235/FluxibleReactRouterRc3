@@ -2,10 +2,10 @@ var AuthStore = require('../stores/AuthStore')
 var AuthActions = {};
 AuthActions.LoadSession = function (context, payload, done) {
     var endpoint = 'user';
+    console.log('LOAD_SESSION');
     context.service.read(endpoint, payload, {}, function (err, res) {
         context.dispatch('LOAD_SESSION', {
             data: res,
-            save: saveOpts
         });
         done();
     });

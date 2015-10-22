@@ -11,5 +11,6 @@ app.plug(fetchrPlugin({
 }));
 
 app.registerStore(require('./stores/AuthStore'))
+app.registerStore(require('./stores/NewsStore'))
 
 module.exports = app;

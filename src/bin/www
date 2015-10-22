@@ -6,7 +6,7 @@
 require('babel/register');
 
 var app = require('../server');
-var debug = require('debug')('ReduxStudy:server');
+var debug = require('debug')('FluxibleReactRouterRc3:server');
 var http = require('http');
 
 /**
