@@ -27,6 +27,7 @@
     "express-useragent": "^0.1.9",
     "fluxible": "^1.0.0",
     "fluxible-addons-react": "^0.2.0",
+    "fluxible-plugin-fetchr": "^0.3.8",
     "history": "^1.12.4",
     "immutable": "^3.7.5",
     "intl": "^1.0.0",
